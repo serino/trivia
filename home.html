@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="home.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+
+  <title>Trivia</title>
+
+</head>
+
+<body>
+  <h1>Trivia</h1>
+  <label id="question">In JavaScript, what is the method name for getting an element by its ID?</label>
+  
+  <div>
+    <input id="userAnswer" type="text" placeholder="answer">
+    <button id="submitUserAnswerButton">Submit</button>
+  </div>
+
+  <p id="resultParagraph"></p>
+
+  <button id="showNextQuestionButton" onclick="showNextQuestion()">Next Question</button>
+
+</body>
+</html>
